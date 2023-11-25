@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    background-color:#dadada;
+}
+.header {
+    display: flex;
+    padding:  50px 400px 20px 400px;
+    gap:50px;
+}
+.header img{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header .main .links, .header .main .about{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+} 
+.header .main .about h4{
+    font-size: 30px;
+    margin-right: 30px;
+}
+.header .main .about h2{
+    font-size: 16px;
+    background-color: rgb(57, 132, 231);
+    height: 25px;
+    padding: 1px 10px;
+    cursor: pointer;
+}
+.header .main .about h2:hover{
+    background-color: rgb(43, 121, 223)
+}
+.header .main .about h3{
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header .main .about h3:hover{
+    transform: rotate(30deg);
+    transition: 0.5s;
+}
+.header .main .links h3{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.header .main .links h3:hover{
+    text-decoration: underline;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 30px 100px;
+}
+.cards .card{
+    width: 400px;
+    padding: 10px;
+    background-color: #cccccc;
+
+}
+.card img{
+    width: 100%;
+}
+.card h2{
+    text-align: center;
+}
